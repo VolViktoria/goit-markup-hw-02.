@@ -10,7 +10,7 @@
 }
 
 /* body */
-.body {
+body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -69,7 +69,7 @@ ul {
 
 /*   Filters   */
 
-.main-btn: {
+.main-button {
   color: var(--primary-text-color);
   background-color: var(--background-extra-color);
   font-family: inherit;
@@ -77,9 +77,9 @@ ul {
   line-height: 1.6;
 }
 
-.main-btn:active,
-.main-btn:hover,
-.main-btn:focus {
+.main-button:active,
+.main-button:hover,
+.main-button:focus {
   color: var(--main-text-color);
   background-color: var(--aditional-color);
 }
@@ -144,14 +144,14 @@ ul {
   font-size: 44px;
   line-height: 1.4;
 }
-.prime-btn {
+.prime-button {
   color: var(--main-text-color);
   font-family: inherit;
   background-color: var(--aditional-color);
   font-size: 16px;
   line-height: 1.9;
 }
-.prime-btn:active,
+.prime-button:active,
 .prime-btn:hover,
 .prime-btn:focus {
   background-color: var(--aditional-color);
