@@ -86,12 +86,14 @@ ul {
 
 /*   projects    */
 
+.project-link {
+  text-decoration: none;
+}
 .project-title {
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 1.2;
-  text-decoration: none;
 }
 
 .project-description {
@@ -152,6 +154,7 @@ ul {
 .prime-btn:hover,
 .prime-btn:focus {
   background-color: var(--aditional-color);
+  color: var(--main-text-color);
 }
 .button {
   cuorsor: pointer;
