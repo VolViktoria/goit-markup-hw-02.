@@ -37,10 +37,13 @@ ul {
 }
 /* nav menu */
 
-.navigation {
+.nav-link {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.1;
+}
+.current {
+  color: var(--aditional-color);
 }
 
 .nav-link:hover,
